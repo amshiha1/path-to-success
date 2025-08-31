@@ -1,0 +1,203 @@
+/* CSS BY AMIRA SHIHA */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* CSS RESET
+http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ROOT VARIABLES */
+
+:root {
+    --font-kavoon: 'Kavoon', cursive;
+    --font-inter: 'Inter', Arial, sans-serif;
+
+    --Teal: #4CA7C0;
+    --Purple: #484FB7;
+    --Lavender: #6B8FE7;
+    --Yellow: #E9BB57; 
+    --Pink:#D9526F;
+    --Dark-gray:#1E1E1E; 
+    --White:#ffffff; 
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+
+body {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--Lavender);
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: var(--font-kavoon);
+    color: var(--White);
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: var(--font-kavoon);
+    color: var(--White);
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: var(--font-inter);
+    color: var(--Yellow);
+}
+
+h4 {
+    font-size: 1.15em;
+    font-family: var(--font-inter);
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+header {
+    text-align: center;
+    background-color: var(--Purple);
+    padding: 35px;
+    margin: 0 auto;
+}
+
+header > p {
+    font-style: italic;
+    font-family: var(--font-inter);
+    color: var(--White);
+}
+
+nav {
+    font-family: var(--font-inter);
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    background-color: var(--Yellow);
+}
+
+nav > h2 {
+    font-family: var(--font-inter);
+    color: var(--Dark-gray);
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+
+nav a {
+    background-color: var(--White);
+    display: block;
+    text-decoration: none;
+    color: var(--Purple);
+    margin: 10px 15px;
+    padding: 15px 15px;
+    font-weight: bold;
+}
+
+#services {
+    font-family: var(--font-inter);
+    background-color: var(--Purple);
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#services h2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+
+#services h3 {
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+}
+
+#services h4 {
+    font-weight: bold;
+    color: var(--Purple);
+    padding: 5px;
+}
+
+#services > section {
+    background-color: var(--White);
+    margin: 14px;
+    border-radius: 15px;
+    padding: 20px 15px;
+}
+
+#services > section > p {
+    line-height: 23px;
+    padding: 5px;
+}
+
+#services > section > img {
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+#options{
+    background-color: var(--Pink);
+    padding: 10px;
+}
+
+
+
+
