@@ -76,7 +76,6 @@ body {
     margin: 0 auto;
     background-color: var(--Lavender);
     box-sizing: border-box;
-    padding: 0 10px;
 }
 
 h1 {
@@ -143,8 +142,8 @@ nav a {
     display: block;
     text-decoration: none;
     color: var(--Purple);
-    margin: 10px 15px;
-    padding: 15px 15px;
+    margin: 10px 12px;
+    padding: 13px 13px;
     font-weight: bold;
 }
 
@@ -193,11 +192,148 @@ nav a {
     padding-bottom: 3px;
 }
 
-#options{
+#options {
     background-color: var(--Pink);
-    padding: 10px;
+    padding: 10px 10px;
 }
 
+#options > h2 {
+    padding-bottom: 10px;
+    padding-left: 3px;
+    padding-top: 5px;
+}
+
+#options section > h4 {
+    font-style: var(--font-inter);
+    font-size: 1.15em;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bolder;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    margin: 3px;
+}
+
+#options section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+#personalized {
+    background-color: var(--Teal);
+    color: var(--Dark-gray)
+}
+
+#results {
+    background-color: var(--Lavender);
+    color: var(--Dark-gray);
+}
+
+#environment {
+    background-color: var(--Yellow);
+    color: var(--Dark-gray);
+}
+
+#flexible {
+    background-color: var(--White);
+    color: var(--Dark-gray);
+}
+
+#prices {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-color: var(--Purple);
+}
+
+#prices section > table {
+    background-color: var(--Yellow);
+    border: solid var(--Yellow) 2px;
+    font-family: var(--font-inter);
+    margin: 5px auto;
+    align-self: center;
+    max-width: 60%;
+}
+
+#prices > h2 {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+#prices section > h3 {
+    font-family: var(--font-inter);
+    font-weight: bold;
+    padding-left: 14px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+#prices section table tr > th {
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#prices section table tr > td {
+    background-color: var(--White);
+    vertical-align: middle;
+    align-items: center;
+    padding: 15px;
+    border: solid var(--Yellow) 2px;
+}
+
+#schedule {
+    background-color: var(--Pink);
+    padding-bottom: 10px;
+}
+
+#schedule > h2 {
+    padding-top: 13px;
+    padding-left: 13px;
+}
+
+#schedule > p {
+    font-family: var(--font-inter);
+    color: var(--White);
+    line-height: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#schedule button {
+    display: block;
+    background-color: var(--White);
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.15em;
+    box-shadow: 4px 4px 4px var(--Dark-gray);
+    width: 21em;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: var(--Purple);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: var(--font-inter);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: small;
+}
+
+footer p {
+    color: var(--White);
+    padding: 30px;
+}
+
+footer a{
+    color: var(--White);
+}
 
 
 
