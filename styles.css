@@ -313,6 +313,7 @@ nav a {
     box-shadow: 4px 4px 4px var(--Dark-gray);
     width: 21em;
     margin: 0 auto;
+    color: var(--Dark-gray);
 }
 
 footer {
