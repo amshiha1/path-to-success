@@ -179,7 +179,7 @@ nav a {
     background-color: var(--White);
     margin: 14px;
     border-radius: 15px;
-    padding: 20px 15px;
+    padding: 20px 20px;
 }
 
 #services > section > p {
@@ -203,7 +203,7 @@ nav a {
     padding-top: 5px;
 }
 
-#options section > h4 {
+#options section > h3 {
     font-style: var(--font-inter);
     font-size: 1.15em;
     text-align: center;
@@ -220,22 +220,22 @@ nav a {
     gap: 10px;
 }
 
-#personalized {
+#personalized-approach {
     background-color: var(--Teal);
-    color: var(--Dark-gray)
+    color: var(--Dark-gray);
 }
 
-#results {
+#proven-results{
     background-color: var(--Lavender);
     color: var(--Dark-gray);
 }
 
-#environment {
+#supportive-environment {
     background-color: var(--Yellow);
     color: var(--Dark-gray);
 }
 
-#flexible {
+#flexible-options {
     background-color: var(--White);
     color: var(--Dark-gray);
 }
@@ -256,7 +256,7 @@ nav a {
 }
 
 #prices > h2 {
-    padding-left: 10px;
+    padding-left: 14px;
     padding-bottom: 5px;
 }
 
@@ -321,8 +321,8 @@ footer {
     flex-direction: row;
     justify-content: center;
     font-family: var(--font-inter);
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     font-size: small;
 }
 
